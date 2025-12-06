@@ -18,7 +18,7 @@
 
 - **SwiftUI**: 100% native macOS declarative UI.
 - **AppKit**: For that sweet menu bar integration.
-- **EventKit**: To know your schedule.
+- **UserNotifications**: For local reminders and alerts.
 - **Gemini 2.0 Flash**: For the brain.
 
 ## 🚀 Getting Started
@@ -33,7 +33,9 @@
 
 ## 📄 License
 
-Copyright (c) 2025 Rahul
+MIT License © 2025 [Rahul](https://github.com/therahul-yo)
+
+See [LICENSE](LICENSE) for details.
 
 ---
-*Made with 💀 and ☕️.*
+*Made with 💀 and ☕️ by Rahul.*
