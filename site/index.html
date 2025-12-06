@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PIXS - The Vibe Note App</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <!-- Favicon Support -->
+    <link rel="icon" type="image/png" href="favicon.png">
+    <link rel="shortcut icon" href="favicon.png">
+    <link rel="apple-touch-icon" href="images/logo.png">
+</head>
+<body>
+    <div id="cursor-follower">👻</div>
+    <canvas id="canvas"></canvas>
+
+    <main>
+        <nav>
+            <div class="logo">
+                PIXS
+                <img src="images/logo.png" alt="PIXS Logo">
+            </div>
+            <div class="links">
+                <a href="https://github.com/therahul-yo/PIXS" target="_blank">GitHub</a>
+                <a href="https://github.com/therahul-yo/PIXS/releases" class="nav-cta">Download</a>
+            </div>
+        </nav>
+
+        <section class="hero">
+            <div class="hero-content">
+                <h1 class="wobbly-text">Notes that <br> don't suck.</h1>
+                <div class="subtitle-container">
+                    <p class="subtitle">Open Source. Minimal. Dark. Kinda chaotic.</p>
+                    <div class="badge">Lives in your Menu Bar ⚡️</div>
+                </div>
+                
+                <div class="cta-container">
+                    <a href="https://github.com/therahul-yo/PIXS/releases" class="download-btn">
+                        <span class="btn-text">Get PIXS</span>
+                        <span class="btn-emoji">👾</span>
+                    </a>
+                </div>
+            </div>
+
+            <div class="hero-visual">
+                <img src="images/hero-app.png" alt="PIXS App Interface">
+            </div>
+        </section>
+
+        <section class="features">
+            <div class="feature-card">
+                <div class="card-image">
+                    <img src="images/notifications.png" alt="Notes Feed">
+                </div>
+                <div class="card-content">
+                    <h3>Instant Notes</h3>
+                    <p>Your main feed. Capture thoughts continuously with instant preview.</p>
+                </div>
+            </div>
+            
+            <div class="feature-card">
+                <div class="card-image">
+                    <img src="images/reminders.png" alt="Powerful Reminders">
+                </div>
+                <div class="card-content">
+                    <h3>Pro Reminders</h3>
+                    <p>Track everything. From job interviews to hydration checks. 💊</p>
+                </div>
+            </div>
+            
+            <div class="feature-card">
+                <div class="card-image">
+                    <img src="images/ai-chat.png" alt="AI Chat Context">
+                </div>
+                <div class="card-content">
+                    <h3>Context Aware</h3>
+                    <p>The AI knows your notes. Ask it to summarize your life drama.</p>
+                </div>
+            </div>
+
+            <div class="feature-card">
+                <div class="card-image">
+                    <img src="images/ai-assistant.png" alt="AI Assistant">
+                </div>
+                <div class="card-content">
+                    <h3>Helpful Assistant</h3>
+                    <p>One tap to summarize, plan, or just vent to a digital friend.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="faq">
+            <h2 class="wobbly-text">Wait, what?</h2>
+            
+            <div class="faq-grid">
+                <div class="faq-item">
+                    <h3>💸 Is it free?</h3>
+                    <p>Yes. 100% Free & Open Source. No subscriptions, no hidden fees. Just good vibes.</p>
+                </div>
+                
+                <div class="faq-item">
+                    <h3>🤖 How does AI work?</h3>
+                    <p>You bring your own Google Gemini API key. It's free to get, and it ensures you have full control.</p>
+                </div>
+
+                <div class="faq-item">
+                    <h3>🔐 Where does my data go?</h3>
+                    <p>Nowhere. Everything stays local on your Mac. We don't see your notes, your API key, or your embarrassing reminders.</p>
+                </div>
+            </div>
+        </section>
+        
+        <footer>
+            <p>Made with 💀 by Rahul</p>
+        </footer>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
