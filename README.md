@@ -33,7 +33,7 @@
 
 ## 📄 License
 
-MIT © [PixelNotes Contributors](LICENSE)
+Copyright (c) 2025 Rahul
 
 ---
 *Made with 💀 and ☕️.*
