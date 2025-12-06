@@ -137,3 +137,13 @@ function animateParticles() {
 
 initParticles();
 animateParticles();
+
+// Copy command to clipboard
+function copyCommand() {
+    const cmd = document.getElementById('install-cmd').textContent;
+    navigator.clipboard.writeText(cmd).then(() => {
+        const btn = document.querySelector('.copy-btn');
+        btn.textContent = '✅';
+        setTimeout(() => btn.textContent = '📋', 1500);
+    });
+}

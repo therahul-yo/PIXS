@@ -92,6 +92,14 @@
             </div>
         </section>
 
+        <section class="install-notice">
+            <p class="notice-text">If macOS says "App is damaged", run this command <span class="info-icon">ⓘ</span></p>
+            <div class="command-box">
+                <code id="install-cmd">xattr -rd com.apple.quarantine /Applications/PIXS.app</code>
+                <button class="copy-btn" onclick="copyCommand()">📋</button>
+            </div>
+        </section>
+        
         <section class="faq">
             <h2 class="wobbly-text">Wait, what?</h2>
             

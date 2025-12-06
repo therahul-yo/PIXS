@@ -325,6 +325,54 @@ h1 {
     margin: 0;
 }
 
+/* Install Notice Section */
+.install-notice {
+    text-align: center;
+    padding: 3rem 0;
+    border-top: 1px solid rgba(255,255,255,0.05);
+}
+
+.notice-text {
+    color: #888;
+    font-size: 0.95rem;
+    margin-bottom: 1rem;
+}
+
+.info-icon {
+    opacity: 0.5;
+    cursor: help;
+}
+
+.command-box {
+    display: inline-flex;
+    align-items: center;
+    background: rgba(0,0,0,0.5);
+    border: 1px solid rgba(255,255,255,0.1);
+    border-radius: 12px;
+    padding: 1rem 1.5rem;
+    font-family: 'SF Mono', 'Monaco', monospace;
+    gap: 1rem;
+}
+
+.command-box code {
+    color: #9B5BFF;
+    font-size: 0.9rem;
+}
+
+.copy-btn {
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    font-size: 1.2rem;
+    opacity: 0.6;
+    transition: 0.2s ease;
+}
+
+.copy-btn:hover {
+    opacity: 1;
+    transform: scale(1.1);
+}
+
 footer {
     text-align: center;
     padding: 2rem;
