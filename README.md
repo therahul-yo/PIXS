@@ -4,6 +4,10 @@
 
 ![PIXS Badge](https://img.shields.io/badge/Made%20with-SwiftUI-orange) ![Vibe Check](https://img.shields.io/badge/Vibe-Passed-green)
 
+🌐 **[Visit the Website](https://pixs-xi.vercel.app/)**
+
+![PIXS Screenshot](screenshot.png)
+
 **PIXS** is a minimal, dark-mode-first note-taking and reminders app for macOS. It's built for people who like pixels, ghosts, and getting things done without the bloat.
 
 ## 🌟 Features
