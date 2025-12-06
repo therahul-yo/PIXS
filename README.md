@@ -6,7 +6,9 @@
 
 🌐 **[Visit the Website](https://pixs-xi.vercel.app/)**
 
-![PIXS Screenshot](screenshot.png)
+![PIXS App](screenshot.png)
+
+![PIXS Website](website.png)
 
 **PIXS** is a minimal, dark-mode-first note-taking and reminders app for macOS. It's built for people who like pixels, ghosts, and getting things done without the bloat.
 
