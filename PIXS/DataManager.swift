@@ -49,13 +49,9 @@ class DataManager: ObservableObject {
         let welcomeContent = """
         Welcome to PIXS! 👾
         
-        This is a minimal space for your thoughts.
-        
-        **Quick Tips:**
-        - **Markdown**: We support **bold**, *italics*, and lists.
-        - **Emojis**: Click the icon above to change this note's vibe. 👆
-        - **AI**: Switch tabs to chat with Gemini about your notes.
-        - **Calendar**: We see what you have coming up.
+        A minimal space for your thoughts.
+        Click the + button to add more notes.
+        Click the emoji to change the vibe.
         
         Enjoy the pixels.
         """
